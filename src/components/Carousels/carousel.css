@@ -1,0 +1,20 @@
+.carouselContainer {
+  display: flex;
+  position: relative;
+}
+.carouselContainer img {
+  width: 100%;
+}
+.carouseltext {
+  position: absolute;
+
+  top: 25%;
+  right: 20%;
+}
+/* media ================================================ */
+@media (max-width: 768px) {
+  .carouseltext {
+    top: 25%;
+    right: 5%;
+  }
+}

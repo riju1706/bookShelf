@@ -1,0 +1,17 @@
+.adressContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.addressForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.addressForm input,
+.addressForm select {
+  margin-bottom: 1rem;
+}

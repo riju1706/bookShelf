@@ -1,0 +1,15 @@
+.cardButton {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.cardButton box-icon {
+  background-color: rgb(15, 200, 15);
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.moreDetails {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}

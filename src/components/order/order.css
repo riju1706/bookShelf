@@ -1,0 +1,38 @@
+.orderContainer {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+}
+.allOrders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+/* media ============================================================== */
+
+@media (max-width: 1200px) {
+  .allOrders {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+@media (max-width: 992px) {
+  .allOrders {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .allOrders {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.orderBtn2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}

@@ -1,0 +1,60 @@
+.fetchBook {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 4.5rem;
+  justify-content: center;
+}
+.container20 {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(162, 171, 28);
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  overflow-y: scroll;
+  align-items: center;
+}
+.sidebar label {
+  font-weight: 500;
+  font-size: 25px;
+}
+.sidebar select {
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
+.sidebar button {
+  width: 50%;
+}
+
+.fetchBook {
+  flex: 4;
+}
+.offcnvasidebar {
+  display: none;
+}
+.offcanvasForm {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0.5rem;
+}
+/* media ============================================================ */
+@media (max-width: 768px) {
+  .offcnvasidebar {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+}

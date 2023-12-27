@@ -1,0 +1,49 @@
+/* .container3 {
+  display: flex;
+  flex-direction: column;
+} */
+.TotalContainer {
+  width: 100%;
+  padding: 1rem 7rem;
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid gray;
+}
+.heading {
+  display: flex;
+  width: 72%;
+}
+.titleContiner {
+  width: 500px;
+  text-align: left;
+}
+.priceContainer {
+  width: 200px;
+}
+.quantityContainer {
+  width: 200px;
+}
+.allContainer {
+  margin-bottom: 10rem;
+  padding-left: 8rem;
+}
+
+/* media ==================================================== */
+
+@media (max-width: 768px) {
+  .allContainer {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .allContainer {
+    padding-left: 0;
+  }
+  .container10 {
+    justify-content: space-evenly;
+  }
+  .container10 img {
+    display: none;
+  }
+}
